@@ -48,8 +48,8 @@ This script is useful for:
 
 ## How to use
 
-1. Insert and mount a USB flash drive
-2. Run the script:
+1. Insert and mount a USB flash drive if you want to save ISOs there
+2. Run the script and choose a USB drive or local folder when prompted:
 
 ```bash
 chmod +x iso-downloader.sh

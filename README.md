@@ -20,20 +20,21 @@ This script is useful for:
   - Security & Pentesting
 - Lets you choose specific ISOs from each category
 - Avoids downloading duplicates
+- Alerts you if a download fails (e.g., due to network issues)
 
 ## Available ISO categories
 
 **Linux Distributions**
-- Ubuntu Desktop 24.04
-- Ubuntu Server 24.04
-- Debian 12.5 netinst
+- Ubuntu Desktop 24.04.2
+- Ubuntu Server 24.04.2
+- Debian 12.11 netinst
 - Arch Linux
 - AlmaLinux 9.4
 - Fedora Workstation 40
 - openSUSE Leap 15.5
 
 **Live & Rescue Tools**
-- Rescuezilla
+- Rescuezilla 2.6
 - SystemRescue
 - GParted Live
 - Hiren’s BootCD PE

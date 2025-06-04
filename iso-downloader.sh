@@ -124,7 +124,9 @@ for num in "${selected[@]}"; do
     echo "✅ Already exists: $filename"
   else
     echo "⬇️ Downloading $name..."
-    curl -LO "$url"
+    if ! curl -fL -o "$filename" "$url"; then
+      echo "❌ Failed to download $name"
+    fi
   fi
 done
 
